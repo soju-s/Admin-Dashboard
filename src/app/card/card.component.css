@@ -1,0 +1,31 @@
+.card {
+    width: 200px;
+    height: 100px;
+    color: white;
+}
+
+.icons {
+    font-size: 50px;
+    width: fit-content;
+    height: fit-content;
+}
+
+#content {
+    font-weight: 600;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}

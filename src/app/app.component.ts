@@ -7,4 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'admin-dashboard';
+
+
+
+  sidebar:boolean=true
+
+
+  sidebarToogle(){
+    // if(this.sidebar==true){
+    //   this.sidebar=false
+    // }
+    // else{
+    //   this.sidebar=true
+    // }
+this.sidebar=!this.sidebar
+  }
 }
